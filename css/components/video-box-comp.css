@@ -1,0 +1,23 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 40vw;
+    border: 5px solid #1C6EA4;
+    cursor: pointer;
+    background-color: rgb(57, 58, 63) ;
+    color: chocolate;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
